@@ -5,36 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>EssentialBooks</title>
     <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
-      <div class="header__box">
-        <span class="header__menu-hamburger header__box__img"></span>
+      <div class="header__menu">
+        <input type="checkbox" id="menu" class="header__menu-checkbox" />
+        <label for="menu">
+          <span class="header__menu-hamburger header__menu__img"></span>
+        </label>
+
+        <ul class="header__menu__list">
+          <li class="header__menu__list__title">Categorias</li>
+          <li class="header__menu__list__item">
+            <a href="#" class="header__menu__list__link">Programação</a>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="#" class="header__menu__list__link">Front-end</a>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="#" class="header__menu__list__link">Infraestrutura</a>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="#" class="header__menu__list__link">Business</a>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="#" class="header__menu__list__link">Design & UX</a>
+          </li>
+        </ul>
+
         <img
           src="assets/logo.png"
           alt="Logo da EssentialBooks"
-          class="header__box__img"
+          class="header__menu__img"
         />
       </div>
-      <div class="header__box">
+      <div class="header__menu">
         <a href="#"
           ><img
             src="assets/favorite.svg"
             alt="Meus favoritos"
-            class="header__box__img"
+            class="header__menu__img"
         /></a>
         <a href="#"
           ><img
             src="assets/bag.svg"
             class="Carrinho de compras"
-            class="header__box__img"
+            class="header__menu__img"
         /></a>
         <a href="#"
           ><img
             src="assets/user-circle.svg"
             alt="Meu perfil"
-            class="header__box__img"
+            class="header__menu__img"
         /></a>
       </div>
     </header>

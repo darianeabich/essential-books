@@ -4,12 +4,21 @@
   --background-color-main: #ffff;
   --background-color-secondary: #ebecee;
   --background-color-tertiary: #f0ead2;
+  --primary-color: #6c584c;
+  --primary-color-light: #a98467;
+  --secondary-color: #adc178;
+  --secondary-color-light: #dde5b6;
+  --primary-degrade: linear-gradient(97.54deg, #6c584c 35.49%, #a98467 165.37%);
+  --font: "Poppins";
 }
 
 body {
   background-color: var(--background-color-secondary);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
 }
 
-h1 {
+/* h1 {
   background-color: var(--background-color-tertiary);
-}
+} */

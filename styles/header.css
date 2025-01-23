@@ -11,13 +11,52 @@
   background-color: var(--background-color-main);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
-.header__box {
+.header__menu {
   display: flex;
   align-items: center;
 }
 
-.header__box__img {
+.header__menu__img {
   padding: 1em;
+}
+
+.header__menu__list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 60vw;
+}
+
+.header__menu-checkbox {
+  display: none;
+}
+
+.header__menu-checkbox:checked ~ .header__menu__list {
+  display: block;
+}
+
+.header__menu__list__title,
+.header__menu__list__item {
+  padding: 1em;
+  background-color: var(--background-color-main);
+}
+
+.header__menu__list__title {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.header__menu__list__item {
+}
+
+.header__menu__list__link {
+  background: var(--primary-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
 }
