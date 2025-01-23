@@ -1,4 +1,5 @@
 @import url("styles/header.css");
+@import url("styles/banner.css");
 
 :root {
   --background-color-main: #ffff;
@@ -10,6 +11,8 @@
   --secondary-color-light: #dde5b6;
   --primary-degrade: linear-gradient(97.54deg, #6c584c 35.49%, #a98467 165.37%);
   --font: "Poppins";
+  --font-color-on-primary: #ffffff;
+  --font-color-on-secondary: #000000;
 }
 
 body {
