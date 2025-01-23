@@ -1,0 +1,15 @@
+@import url("styles/header.css");
+
+:root {
+  --background-color-main: #ffff;
+  --background-color-secondary: #ebecee;
+  --background-color-tertiary: #f0ead2;
+}
+
+body {
+  background-color: var(--background-color-secondary);
+}
+
+h1 {
+  background-color: var(--background-color-tertiary);
+}
