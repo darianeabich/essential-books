@@ -15,6 +15,7 @@
   --secondary-color-light: #dde5b6;
   --primary-degrade: linear-gradient(97.54deg, #6c584c 35.49%, #a98467 165.37%);
   --font: "Poppins";
+  --font-title: "Josefin Sans";
   --font-color-on-primary: #ffffff;
   --font-color-on-secondary: #000000;
 }

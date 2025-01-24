@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -49,13 +50,43 @@
           alt="Logo da EssentialBooks"
           class="header__menu__img"
         />
+        <h1 class="header__title"><b class="header__title-bold">Essential</b>Books</h1>
       </div>
+
+      <ul class="options">
+        <input type="checkbox" id="options-menu" class="options-menu-checkbox" />
+        <label for="options-menu">
+          <li class="options__item">Categorias</li>
+        </label>
+
+        <ul class="header__menu__list">
+          <li class="header__menu__list__item">
+            <a href="#" class="header__menu__list__link">Programação</a>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="#" class="header__menu__list__link">Front-end</a>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="#" class="header__menu__list__link">Infraestrutura</a>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="#" class="header__menu__list__link">Business</a>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="#" class="header__menu__list__link">Design & UX</a>
+          </li>
+        </ul>
+
+        <li class="options__item"><a href="#" class="options__link">Favoritos</a></li>
+        <li class="options__item"><a href="#" class="options__link">Minha estante</a></li>
+      </ul>
+
       <div class="header__menu">
         <a href="#"
           ><img
             src="assets/favorite.svg"
             alt="Meus favoritos"
-            class="header__menu__img"
+            class="header__menu__img img-hide"
         /></a>
         <a href="#"
           ><img
