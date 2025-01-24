@@ -1,0 +1,32 @@
+.topics {
+  background: var(--primary-degrade);
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.topics__title {
+  color: var(--font-color-on-primary);
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.topics__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.topics__list__item {
+  display: flex;
+  margin: 1em 0.5em;
+}
+
+.topics__list__link {
+  background-color: var(--secondary-color);
+  padding: 1em 1.5em;
+  color: var(--font-color-on-primary);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}

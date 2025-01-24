@@ -1,6 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carousel.css");
+@import url("styles/topics.css");
 
 :root {
   --background-color-main: #ffff;
@@ -17,7 +18,7 @@
 }
 
 body {
-  background-color: var(--background-color-secondary);
+  background-color: var(--background-color-tertiary);
   font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
