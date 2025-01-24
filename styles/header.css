@@ -73,6 +73,10 @@
   display: block;
 }
 
+.header__menu__text {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .header__title,
   .header__title-bold {
@@ -123,5 +127,26 @@
 
   .options-menu-checkbox {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .header {
+    padding: 0 2em;
+  }
+
+  .header__menu__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--font-color-on-secondary);
+  }
+
+  .header__menu__text {
+    display: block;
+  }
+
+  .options {
+    margin-right: auto;
   }
 }
