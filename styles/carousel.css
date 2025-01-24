@@ -1,0 +1,87 @@
+.carousel {
+}
+
+.carousel__title {
+  background-color: var(--background-color-main);
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em 0 0.5em 0;
+  /* margin-bottom: 1em; */
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination {
+  position: initial;
+  margin: 0.5em 0;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary-color);
+}
+
+.card {
+  background: var(--background-color-main);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+}
+
+.card__description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.description__classification {
+  margin-bottom: 0.5em;
+}
+
+.description__title {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.description__title-book {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+
+.description__text {
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+.card__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons__item {
+  margin: 0 0.5em;
+}
+
+.buttons__link {
+  background-color: var(--secondary-color);
+  padding: 1em 2.2em;
+  color: var(--font-color-on-primary);
+  font-weight: 700;
+  text-decoration: none;
+}
