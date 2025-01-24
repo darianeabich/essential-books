@@ -18,6 +18,8 @@
   --font-title: "Josefin Sans";
   --font-color-on-primary: #ffffff;
   --font-color-on-secondary: #000000;
+  --font-color-on-tertiary: #474646;
+  --font-color-on-tertiary-light: #858585;
 }
 
 body {
